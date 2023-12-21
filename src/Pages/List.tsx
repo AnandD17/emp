@@ -11,15 +11,15 @@ const List = (props: Props) => {
   return (
     <div className="pt-10">
       <Header />
-      <div className="flex h-[55px] items-center py-4 px-5 bg-[#141615] mt-5 rounded-[16px]">
+      <div className="flex h-[55px] w-[300px] mx-auto items-center py-4 px-5 bg-[#141615] mt-5 rounded-[16px]">
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           type="text "
-          className="grow text-white bg-transparent placeholder:text-center px-4 py-2 focus:border-none active:border-none focus:outline-none active:border-none"
+          className="grow text-white bg-transparent placeholder:font-[700] px-4 py-2 focus:border-none active:border-none focus:outline-none active:border-none text-[#FFFFFFB3]"
           placeholder="Search with name"
         />
-        <IoMdSearch className="h-6 w-6 text-white" />
+        <IoMdSearch className="h-6 w-6 text-[#FFFFFFB3]" />
       </div>
       <div className="flex flex-col mt-5 gap-4">
         {employeeData
