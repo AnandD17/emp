@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-const Home = (props: Props) => {
+const Dashboard = (props: Props) => {
   const progressApp = [
     {
       title: "Productivity on Monday",
@@ -77,4 +77,4 @@ const Progress = ({ title, percent }: ProgressProps) => {
   );
 };
 
-export default Home;
+export default Dashboard;

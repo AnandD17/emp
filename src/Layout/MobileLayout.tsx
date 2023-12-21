@@ -3,8 +3,8 @@ import {MdPerson} from 'react-icons/md'
 import { FaHouse } from "react-icons/fa6";
 
 type Props = {
-    children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 const MobileLayout = (props: Props) => {
   return (
@@ -18,7 +18,7 @@ const MobileLayout = (props: Props) => {
                 <MdPerson  className='w-[40px] h-[40px] text-[#236435] cursor-pointer'/>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default MobileLayout
+export default MobileLayout;
