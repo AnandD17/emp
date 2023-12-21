@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Login from '../Pages/Login'
 import MobileLayout from '../Layout/MobileLayout'
 
-type Props = {}
+type Props = {};
 
 const Router = (props: Props) => {
   return (
@@ -12,7 +12,7 @@ const Router = (props: Props) => {
             <Route path="/" element={<MobileLayout><Login/></MobileLayout>} />
         </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default Router
+export default Router;

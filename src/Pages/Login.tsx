@@ -1,11 +1,14 @@
-import React from 'react'
+import Logo from "../assets/logo.png";
 
-type Props = {}
-
-const Login = (props: Props) => {
+const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <div className="w-[600px] h-[100vh] mx-auto bg-[#000] flex items-center justify-center">
+      <div className="flex flex-col gap-[17px]">
+        <img src={Logo} className="w-[90px]" />
+        <p className="text-[16px] text-[#36A546CC]">We are Electric</p>
+      </div>
+    </div>
+  );
+};
 
-export default Login
+export default Login;

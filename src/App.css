@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap");
+
+.bg-input {
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+}
