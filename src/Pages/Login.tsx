@@ -5,16 +5,18 @@ const Login = () => {
     <div className="h-[100%] w-[100%] flex items-center justify-center flex-col">
       <div className="flex flex-col gap-[17px] mt-[160px]">
         <img src={Logo} className="w-[90px]" />
-        <p className="text-[16px] text-primary_text">We are Electric</p>
+        <p className="text-[16px] text-primary_text tracking-tight">
+          We are Electric
+        </p>
       </div>
 
       <div className="mt-[50px] flex flex-col ">
         <input
-          className=" p-[10px] h-[42px] bg-input rounded-[20px] w-[238px] "
+          className=" px-[20px] text-white h-[42px] bg-input rounded-[20px] w-[238px] placeholder:text-[#FFFFFFB3] placeholder:text-sm"
           placeholder="E-mail"
         />
         <input
-          className="p-[10px] h-[42px] mt-[25px] bg-input rounded-[20px] w-[238px] "
+          className="px-[20px] text-white h-[42px] mt-[25px] bg-input rounded-[20px] w-[238px] placeholder:text-[#FFFFFFB3] placeholder:text-sm "
           placeholder="Password"
         />
 
