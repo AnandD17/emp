@@ -3,7 +3,7 @@ import Header from '../Components/Header'
 import { IoMdSearch } from "react-icons/io";
 import { employeeData } from '../Data/data';
 
-type Props = {}
+type Props = {};
 
 const List = (props: Props) => {
     const [search, setSearch] = React.useState('')
@@ -54,7 +54,7 @@ const List = (props: Props) => {
             
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default List
+export default List;
